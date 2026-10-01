@@ -1,0 +1,13 @@
+
+---
+
+## 2. Add a `.gitignore`
+
+Run:
+
+```powershell
+@"
+node_modules/
+.env
+npm-debug.log
+"@ | Set-Content .gitignore
